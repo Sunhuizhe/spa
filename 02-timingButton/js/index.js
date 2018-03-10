@@ -9,3 +9,6 @@ var id = setInterval(function(){
     btn.removeAttribute('disabled');
   }
 },1000);
+btn.onclick = function(){
+  alert('已同意！');
+}
