@@ -1,0 +1,16 @@
+*{
+  margin:0;
+  padding:0;
+  text-align:center;
+}
+form{
+  padding-top:30px;
+  font-size:16px;
+  margin:auto;
+  text-align:left;
+  width:400px;
+}
+input[type = 'range']{
+  margin:15px;
+  width:300px;
+}
