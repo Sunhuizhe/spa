@@ -1,0 +1,17 @@
+
+input:invalid+span:after {
+    content: '✖';
+      color: red;
+
+}
+
+input:valid+span:after {
+    content: '✓';
+      color: green;
+
+}
+input[type='submit']{
+  padding: 0 12px;
+  width: 70px;
+  margin-left: 66px;
+}
