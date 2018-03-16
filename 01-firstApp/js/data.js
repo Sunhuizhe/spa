@@ -31,11 +31,11 @@ $('#height').blur(function(){
 $('#rectangle-calc').click(function(){
   var width = $('#width').val();
   var height = $('#height').val();
-  if(isNaN(width) || isNaN(height)){
+  if(isNaN(width) || isNaN(height) || width=='' || height=='' || width<0 || height<0 ){
   }else{
   // 计算周长和面积
     var cval = (parseFloat(width)+parseFloat(height))*2;
-    var sval = width*height;
+    var sval = width*heightr
     cval = roundfn(cval,2);
     sval = roundfn(sval,2);
     // 输出周长和面积
