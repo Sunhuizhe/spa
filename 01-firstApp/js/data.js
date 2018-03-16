@@ -35,7 +35,7 @@ $('#rectangle-calc').click(function(){
   }else{
   // 计算周长和面积
     var cval = (parseFloat(width)+parseFloat(height))*2;
-    var sval = width*heightr
+    var sval = width*height;
     cval = roundfn(cval,2);
     sval = roundfn(sval,2);
     // 输出周长和面积
