@@ -16,16 +16,6 @@ function checkData(e){
   || ($('#' + e.id + 'err').html('')); 
 }
 
-//失焦错误提示
-//$('#width').blur(function(){
-  //var blurwidth = wid.value;
-//  checkData(this);
-//});
-
-//$('#height').blur(function(){
-//  checkData(this); 
-//});
-
 // 定事件 -- onclilck
 // 写代码
 $('#rectangle-calc').click(function(){
@@ -41,6 +31,7 @@ $('#rectangle-calc').click(function(){
   }
   else{
     $('#heighterr').html('');
+    $('#widtherr').html('');
   // 计算周长和面积
     var cval = (parseFloat(width)+parseFloat(height))*2;
     var sval = width*height;
