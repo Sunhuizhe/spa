@@ -3,7 +3,8 @@ function roundfn(x, n) {
   return Math.round(x * Math.pow(10, n)) / Math.pow(10, n);
 }
 
-$('#rectangle-calc').click(function(){
+$('#rectangle-calc').click(function(event){
+  event.preventDefault();
   var width = $('#width').val();
   var height = $('#height').val();
   if(isNaN(width) || isNaN(height) || width=='' || height=='' || width<0 || height<0 ){    
