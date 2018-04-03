@@ -15,8 +15,9 @@ var $login = (function(){
      +  '</form>'
      + '</div>';
 
-  function show(config){
-    $(config.container).html(html);
+  function show(){
+    $(app.config.appContainer).html('');
+    $(app.config.appContainer).html(html);
   }
 
   return{show:show};

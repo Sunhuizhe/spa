@@ -1,0 +1,9 @@
+.admin-footer{
+position:absolute;
+left:200px;
+bottom:0;
+height:36px;
+right:0;
+line-height:36px;
+background:blue;
+}
